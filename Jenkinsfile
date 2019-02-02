@@ -14,7 +14,7 @@ pipeline{
 			}
 		}
 		stage('deploy-to-stage'){
-			steps_{
+			steps{
 				build job: 'deply-to-stage'
 			}
 			
