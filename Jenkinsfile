@@ -13,5 +13,11 @@ pipeline{
 				}
 			}
 		}
+		stage('deploy-to-stage'){
+			steps_{
+				build job: 'deply-to-stage'
+			}
+			
+		}
 	}
 }
